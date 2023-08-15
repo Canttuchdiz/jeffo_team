@@ -1,0 +1,11 @@
+python-dotenv~=0.21.1
+discord.py
+python-dateutil
+parsedatetime
+typing-extensions
+asyncpg
+aiofiles
+aiopyston
+prisma
+jishaku
+pydantic
