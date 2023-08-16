@@ -4,7 +4,9 @@ class DisallowedTerms:
 
 
 class StickyMessages:
-    amMessage = """**<:chirp:965360529910689832>  TRADE SAFELY !! Read <#1014631688543928330> BEFORE You Start Trading.
+    amMessage = """.
+    
+**<:chirp:965360529910689832>  TRADE SAFELY !! Read <#1014631688543928330> BEFORE You Start Trading.
 
 Remember That Begging, Cross-Trading, And Advertising Are NOT Permitted  <:confident2:965360253812215819>**"""
 
@@ -19,4 +21,4 @@ class BannedPhrases:
     log_channel = 1077660193418137620
     phrases = ["fruit notifer for 2 leopard", "hello i have an insane offer", "nfrfrost dragon 4x",
                "drak balde for dough",
-               "No link no password requirred!", "⁞ thomstone x2", "⁞ 11x frost (teen-full grown)"]
+               "No link no password requirred!", "┊ thomstone x2", "┊ 11x frost (teen-full grown)"]
