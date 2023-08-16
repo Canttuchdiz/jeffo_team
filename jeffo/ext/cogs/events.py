@@ -18,14 +18,12 @@ class Events(commands.Cog):
         self.client: commands.Bot = bot
         self.loop = asyncio.get_event_loop()
 
-
     @commands.Cog.listener()
     async def on_ready(self) -> None:
         print('Ready!')
         print('Logged in as ---->', self.client.user)
         print('ID:', self.client.user.id)
         # print(f'Version: {Config.VERSION}')
-
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error) -> None:
