@@ -18,4 +18,5 @@ class WFLEmojis:
 class BannedPhrases:
     log_channel = 1077660193418137620
     phrases = ["fruit notifer for 2 leopard", "hello i have an insane offer", "nfrfrost dragon 4x",
-               "drak balde for dough", "No link no password requirred!"]
+               "drak balde for dough",
+               "No link no password requirred!", "⁞ thomstone x2", "⁞ 11x frost (teen-full grown)"]
