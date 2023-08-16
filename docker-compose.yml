@@ -2,4 +2,4 @@ version: "3.8"
 services:
   main:
     build: .
-    container_name: mybot
+    container_name: jeffo_team

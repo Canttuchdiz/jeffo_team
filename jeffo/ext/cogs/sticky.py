@@ -3,6 +3,7 @@ import asyncio
 from discord import TextChannel
 from discord.ext import tasks
 from discord.ext.commands import Bot, Cog, command, Context, has_permissions
+from jeffo.utils.constants import StickyMessages
 from typing import List
 import datetime
 
@@ -12,9 +13,9 @@ class Sticky(Cog):
     def __init__(self, bot: Bot) -> None:
         self.client = bot
 
-    @tasks.loop(minutes=1)
+    @tasks.loop(minutes=2)
     async def bot_update(self, channel: TextChannel) -> None:
-        await channel.send("Heyyyyyyyyy")
+        await channel.send(StickyMessages.amMessage)
 
     @command(name="start")
     @has_permissions(administrator=True)

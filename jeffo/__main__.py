@@ -25,7 +25,7 @@ class Bot(commands.Bot):
     # Initializes needed data
     def __init__(self) -> None:
         super().__init__(command_prefix='!', intents=intents,
-                         activity=discord.Activity(name="Byval",
+                         activity=discord.Activity(name="Jeffo",
                                                    type=discord.ActivityType.watching),
                          status=discord.Status.dnd)
 
