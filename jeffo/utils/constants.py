@@ -14,3 +14,8 @@ class WFLEmojis:
     trigger = '<:wfl:1137570509354193006>'
     wfl = [1137570511384227951, 1137570516824227941, 1137570514093740142]
 
+
+class BannedPhrases:
+    log_channel = 1077660193418137620
+    phrases = ["fruit notifer for 2 leopard", "hello i have an insane offer", "nfrfrost dragon 4x",
+               "drak balde for dough", "No link no password requirred!"]
