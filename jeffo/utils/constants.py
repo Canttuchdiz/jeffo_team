@@ -4,7 +4,7 @@ class DisallowedTerms:
 
 
 class StickyMessages:
-    amMessage = """**<:chirp:965360529910689832>  TRADE SAFELY !! Read <#952654285135544440> BEFORE You Start Trading.
+    amMessage = """**<:chirp:965360529910689832>  TRADE SAFELY !! Read <#1014631688543928330> BEFORE You Start Trading.
 
 Remember That Begging, Cross-Trading, And Advertising Are NOT Permitted  <:confident2:965360253812215819>**"""
 
