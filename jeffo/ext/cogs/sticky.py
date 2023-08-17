@@ -13,7 +13,7 @@ class Sticky(Cog):
     def __init__(self, bot: Bot) -> None:
         self.client = bot
 
-    @tasks.loop(minutes=2)
+    @tasks.loop(minutes=3)
     async def bot_update(self, channel: TextChannel) -> None:
         await channel.send(StickyMessages.amMessage)
 
