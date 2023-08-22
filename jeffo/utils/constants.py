@@ -13,7 +13,7 @@ Remember That Begging, Cross-Trading, And Advertising Are NOT Permitted  <:confi
 
 class WFLEmojis:
     channels = [981621510047420477, 1129428964176314368]
-    trigger = '<:wfl:1137570509354193006>'
+    trigger = '<:7Trade1WFL:1137570509354193006>'
     wfl = [1137570511384227951, 1137570516824227941, 1137570514093740142]
 
 
