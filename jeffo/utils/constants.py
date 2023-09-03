@@ -84,10 +84,6 @@ class StickyMessages:
 
 Remember That Begging, Cross-Trading, And Advertising Are NOT Permitted  <:confident2:965360253812215819>**""",
                  """.
-                 
-New AM-trading bot message, every 4 minutes:
-
-.
 
 <:1JeffoAmazed:965360251912200292> **Use Our CUSTOM Adopt Me Trading Emojis To Make Your Post STAND OUT !!** 
 
