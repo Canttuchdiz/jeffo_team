@@ -13,9 +13,11 @@ class Sticky(Cog):
     def __init__(self, bot: Bot) -> None:
         self.client = bot
 
-    @tasks.loop(minutes=3)
+    @tasks.loop(minutes=4)
     async def bot_update(self, channel: TextChannel) -> None:
-        await channel.send(StickyMessages.amMessage)
+        await channel.send(StickyMessages.amMessage[0])
+        await asyncio.sleep(120)
+        await channel.send(StickyMessages.amMessage[1])
 
     @command(name="start")
     @has_permissions(administrator=True)
